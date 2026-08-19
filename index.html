@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Crucial for mobile responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Construction</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Centers content both horizontally and vertically */
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      color: #1a1a1a;
+      padding: 24px;
+    }
+
+    /* Constrains max width so text doesn't stretch too wide */
+    .container {
+      text-align: center;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    /* Responsive image scaling */
+    .logo {
+      max-width: 280px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 24px;
+    }
+
+    /* Fluid typography that scales with screen width */
+    h1 {
+      font-size: clamp(1.25rem, 4vw, 1.75rem);
+      line-height: 1.4;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="logo.png" alt="Spikes and Spines Logo" class="logo">
+    <h1>We're under construction. Please check back for an update soon.</h1>
+  </div>
+
+</body>
+</html>
